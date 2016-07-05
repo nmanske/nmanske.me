@@ -30,11 +30,24 @@
     border:2px solid black;
 }
 
+.heading{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.text-lg {
+    font-size: 125%;
+}
+
 .portfolio-section {
     background-color: #2B2B2B;
     color: white;
     padding-top: 20px;
-    padding-bottom: 40px;
+}
+
+.img-thumbnail {
+    background: #000000;
+    background-color: transparent;
 }
 
 .footer {
