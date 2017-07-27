@@ -1,33 +1,39 @@
+body {
+    background-color: white;
+}
+
 .jumbotron {
     color: white;
-    background-color: #2B2B2B;
+    background-color: #282828;
     padding-bottom: 40px;
     margin-bottom: 0;
 }
 
-.title h2{
+.title h2 {
     font-size: 26px;
 }
 
 .btn-custom {
     color: white;
-    font-size: 50px;
-    padding-left: 25px;
-    padding-right: 25px;
+    font-size: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
 }
 
 .btn-custom:hover {
     color: #7F7F7F;
 }
 
-.about-section {
-    background-color: #D4D4D4;
+.about {
+    color: white;
+    background-color: #303030;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.about-section img {
-    border:2px solid black;
+.about img {
+    border:2px solid white;
 }
 
 .heading{
@@ -39,10 +45,11 @@
     font-size: 125%;
 }
 
-.portfolio-section {
-    background-color: #2B2B2B;
+.portfolio {
+    background-color: #282828;
     color: white;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .img-thumbnail {
@@ -52,7 +59,7 @@
 
 .footer {
     color: white;
-    background-color: #2B2B2B;
+    background-color: #303030;
     padding-top: 20px;
     padding-bottom: 10px;
 }
