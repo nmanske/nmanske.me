@@ -15,40 +15,39 @@
         <script src="https://use.fontawesome.com/ce3b2c7615.js"></script>
     </head>
     <body>
-        <header class="jumbotron">
-            <div class="container">
-                <div class="title col-md-12">
-                    <h1 class="text-center">Nathan Manske</h1>
-                    <h2 class="text-center">Computer Engineer & Tech Enthusiast</h2>
-                </div>
-                <div id="favicons" class="text-center">
-                    <a href="./static/docs/Manske_Resume.pdf" title="Résumé" class="btn btn-custom"><i class="fa fa-file-text" aria-hidden="true"></i></a>
-                    <a href="http://github.com/nmanske" title="Github" class="btn btn-custom"><i class="fa fa-github" aria-hidden="true"></i></a>
-                    <a href="http://linkedin.com/in/nmanske" title="LinkedIn" class="btn btn-custom"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                    <a href="http://nmanske94.wordpress.com" title="WordPress" class="btn btn-custom"><i class="fa fa-wordpress fa-5" aria-hidden="true"></i></a>
-                    <a href="mailto:nathaniel.manske@gmail.com" title="E-mail" class="btn btn-custom"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </header>
-        <div class="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h2 class="heading">ABOUT ME</h2>
-                        <p class="text-lg">Hello! My name is Nathan Manske, a computer engineer residing in Austin, TX.</p>
-                        <p class="text-lg">I have hands-on experience in a variety of areas, such as designing and implementing embedded systems, web applications, and more.</p>
-                        <p class="text-lg">I first started learning how to code when I was 15. Fast-forward eight years later and programming remains as one of my greatest passions.</p>
+        <div>
+            <header class="container" id="header">
+                <div class="col-md-6">
+                    <h1 id="name" class="text-center">Nathan Manske</h1>
+                    <h2 id="title" class="text-center">Software Engineer</h2>
+                    <div class="text-center">
+                        <a href="./static/docs/Manske_Resume.pdf" title="Résumé" class="btn btn-custom"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+                        <a href="http://github.com/nmanske" title="Github" class="btn btn-custom"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="http://linkedin.com/in/nmanske" title="LinkedIn" class="btn btn-custom"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="mailto:nathaniel.manske@gmail.com" title="E-mail" class="btn btn-custom"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                     </div>
-                    <div class="col-md-offset-1 col-md-3">
-                        <img class="img-responsive img-circle" src="./static/images/me.jpg" alt="Me!" />
+                </div>
+                <div id="headshot" class="col-md-offset-3 col-md-3">
+                    <img class="img-responsive img-circle" src="./static/images/me.jpg" alt="Me!" />
+                </div>
+            </header>
+        </div>
+        <div>
+            <div class="container" id="bio">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="subject">ABOUT ME</h2>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="subject">SKILLS</h2>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="portfolio">
-            <div class="container">
+        <div>
+            <div class="container" id="portfolio">
                 <div class="row">
-                    <h2 class="heading" style="padding-left: 12px;">MY PROJECTS</h2>
+                    <h2 class="section">MY PROJECTS</h2>
                     <div class="row">
                         <div class="col-md-4">
                             <a href=http://github.com/nmanske/voting-machine>
@@ -58,9 +57,9 @@
                         </div>
                         <div class="col-md-4">
                             <a href=http://dailytexanonline.com/2016/04/28/electrical-engineering-showcase-prototypes-in-senior-design-open-house>
-                                <img src="./static/images/temperature-controller.jpg" class="img-thumbnail" alt="Novice BBQ Smoker Temperature Controller" />
+                                <img src="./static/images/temperature-controller.jpg" class="img-thumbnail" alt="BBQ Smoker Temperature Controller" />
                             </a>
-                            <p class="text-center"><strong>Novice BBQ Smoker Temperature Controller</strong></p>
+                            <p class="text-center"><strong>BBQ Smoker Temperature Controller</strong></p>
                         </div>
                         <div class="col-md-4">
                             <a href=http://github.com/nmanske/maze-madness>
@@ -72,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer text-center small">
+        <div class="text-center small">
             <footer class="container">
                 <div class="row">
                     <p>Website Built by Nathan Manske using <a href="http://getbootstrap.com/">Bootstrap</a> and <a href="http://fontawesome.io/">Font Awesome</a>; hosted on <a href="http://pages.github.com/">Github Pages</a></p>
