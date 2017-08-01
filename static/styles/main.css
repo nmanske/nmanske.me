@@ -7,24 +7,20 @@ body {
 
 .container {
     background-color: rgba(40, 40, 40, 0.3);
-    border-left: 2px solid white;
-    border-right: 2px solid white;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 header {
-    border-top: 2px solid white;
-    border-bottom: 2px dashed white;
     margin-top: 60px;
 }
 
 #name {
-    font-size: 61px;
+    font-size: 75px;
 }
 
 #title {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .img-circle {
@@ -47,10 +43,14 @@ header {
 #bio {
     padding-left: 60px;
     padding-right: 60px;
-    border-bottom: 2px dashed white;
+}
+
+#bio p{
+    font-size: 20px;
 }
 
 .subject {
+    font-size: 35px;
     margin-top: 15px;
     margin-bottom: 25px;
 }
@@ -62,7 +62,6 @@ header {
 #portfolio {
     padding-left: 60px;
     padding-right: 60px;
-    border-bottom: 2px dashed white;
 }
 
 .img-thumbnail {
@@ -78,7 +77,6 @@ footer {
     color: white;
     background-color: #282828;
     padding-bottom: 10px;
-    border-bottom: 2px solid white;
     margin-bottom: 60px;
     padding-top: 30px;
     padding-bottom: 30px;
