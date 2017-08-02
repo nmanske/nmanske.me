@@ -7,7 +7,7 @@ body {
 
 header {
     margin-top: 60px;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 footer {
@@ -25,6 +25,8 @@ a {
     text-decoration: underline;
 }
 
+    a:hover {color: #7F7F7F;}
+
 .container {
     background-color: rgba(40, 40, 40, 0.3);
     padding-left: 75px;
@@ -32,8 +34,8 @@ a {
 }
 
 .btn-custom {
-    font-size: 45px;
     color: white;
+    font-size: 45px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
@@ -41,20 +43,15 @@ a {
 
     .btn-custom:hover {color: #7F7F7F;}
 
-.no-padding {
-    padding-left: 0;
-    padding-right: 0;
-}
-
 .subject {
     font-family: 'Sniglet', cursive;
     font-size: 45px;
     margin-bottom: 25px;
 }
 
-.img-thumbnail {
-    background-color: transparent;
+.project {
     border-radius: 20px;
+    padding-bottom: 10px;
 }
 
 #name {
