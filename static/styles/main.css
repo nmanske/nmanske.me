@@ -1,85 +1,89 @@
 body {
-    color: white;
-    background: #283c86;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  background: #283c86;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 header {
-    margin-top: 60px;
-    padding-top: 40px;
+  margin-top: 60px;
+  padding-top: 40px;
 }
 
 footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    margin-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 p {
-    font-family: 'Hind', sans-serif;
+  font-family: 'Hind', sans-serif;
 }
 
 a {
-    color: white;
-    text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 
-    a:hover {color: #7F7F7F;}
+a:hover {
+  color: #7F7F7F;
+}
 
 .container {
-    background-color: rgba(40, 40, 40, 0.3);
-    padding-left: 75px;
-    padding-right: 75px;
+  background-color: rgba(40, 40, 40, 0.3);
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .btn-custom {
-    color: white;
-    font-size: 45px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 20px;
+  color: white;
+  font-size: 45px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
 }
 
-    .btn-custom:hover {color: #7F7F7F;}
+.btn-custom:hover {
+  color: #7F7F7F;
+}
 
 .subject {
-    font-family: 'Sniglet', cursive;
-    font-size: 45px;
-    margin-bottom: 25px;
+  font-family: 'Sniglet', cursive;
+  font-size: 45px;
+  margin-bottom: 25px;
 }
 
 .project {
-    border-radius: 20px;
-    padding-bottom: 10px;
+  border-radius: 20px;
+  padding-bottom: 10px;
 }
 
 #name {
-    font-family: 'Fredoka One', cursive;
-    font-size: 75px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 75px;
 }
 
 #title {
-    font-family: 'Fredoka One', cursive;
-    font-size: 50px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 50px;
 }
 
 #self {
-    margin-top: 40px;
-    border-radius: 20px;
+  margin-top: 40px;
+  border-radius: 20px;
 }
 
 #bio {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #skills {
-    padding: 10px;
-    border-style: dashed;
-    border-width: 1px;
+  padding: 10px;
+  border-style: dashed;
+  border-width: 1px;
 }
 
 #projects {
-    font-size: 20px;
-    padding-top: 20px;
+  font-size: 20px;
+  padding-top: 20px;
 }
