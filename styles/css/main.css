@@ -6,24 +6,33 @@
 
 body {
   color: white;
+  font-family: 'Hind', sans-serif;
   background: #283c86;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+h1, h2 {
+  font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+  font-size: 75px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 50px;
+}
+
 header {
+  padding-top: 30px;
   margin-top: 60px;
-  padding-top: 40px;
 }
 
 footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding: 30px 0 20px 0;
   margin-bottom: 60px;
-}
-
-p {
-  font-family: 'Hind', sans-serif;
 }
 
 a {
@@ -40,22 +49,17 @@ img {
 }
 
 figcaption {
-  font-family: 'Hind', sans-serif;
   margin-bottom: .8em;
 }
 
 .container {
   background-color: rgba(40, 40, 40, 0.3);
-  padding-left: 75px;
-  padding-right: 75px;
+  padding: 0 75px;
 }
 
 .btn-custom {
-  color: white;
   font-size: 45px;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 20px;
+  padding: 20px 60px 0;
 }
 
 .btn-custom:hover {
@@ -71,16 +75,6 @@ figcaption {
 .project {
   border-radius: 20px;
   padding-bottom: 10px;
-}
-
-#name {
-  font-family: 'Fredoka One', cursive;
-  font-size: 75px;
-}
-
-#title {
-  font-family: 'Fredoka One', cursive;
-  font-size: 50px;
 }
 
 #self {
