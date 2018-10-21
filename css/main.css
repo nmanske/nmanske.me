@@ -35,6 +35,15 @@ a:hover {
   color: #7F7F7F;
 }
 
+img {
+  width: 100%;
+}
+
+figcaption {
+  font-family: 'Hind', sans-serif;
+  margin-bottom: .8em;
+}
+
 .container {
   background-color: rgba(40, 40, 40, 0.3);
   padding-left: 75px;
