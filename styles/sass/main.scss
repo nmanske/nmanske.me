@@ -1,5 +1,6 @@
+@import 'variables';
+
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -77,22 +78,22 @@ figcaption {
   padding-bottom: 10px;
 }
 
-#self {
+.self {
   margin-top: 40px;
   border-radius: 20px;
 }
 
-#bio {
+.bio {
   font-size: 20px;
 }
 
-#skills {
+.skills {
   padding: 10px;
   border-style: dashed;
   border-width: 1px;
 }
 
-#projects {
+.projects {
   font-size: 20px;
   padding-top: 20px;
 }
