@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="styles/css/main.min.css">
 
   <script src="https://use.fontawesome.com/2154ae244e.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
 </head>
 
 <body>
@@ -50,7 +50,9 @@
     <div class="row">
       <h3 class="subject text-left">ABOUT</h3>
       <p>
-        <i class="fa fa-star-o" aria-hidden="true"></i>󠁵󠁳󠁴󠁸󠁿 <span class="age"></span> / Male / Austin <i class="fa fa-star-o"aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>󠁵󠁳󠁴󠁸󠁿
+        <script>document.write(new moment().diff(moment('19940111', 'YYYYMMDD'), 'years'))</script> / Male / Austin
+        <i class="fa fa-star-o"aria-hidden="true"></i>
         󠁵󠁳󠁴󠁸󠁿<br><br>
         Jack-of-all-trades specializing in <a href="https://github.com/nmanske">software</a> development. I also know
         how to get my hands dirty with <a href="https://hackaday.io/nmanske">hardware</a>. I have experience designing
@@ -144,19 +146,10 @@
   <footer class="container">
     <div class="row text-center small">
       <p>
-        Website Built by Nathan Manske using <a href="http://getbootstrap.com/">Bootstrap</a> and <a href="http://fontawesome.io/">Font Awesome</a>;
-        hosted on <a href="http://pages.github.com/">Github Pages</a> [<a href="https://github.com/nmanske/nmanske.github.io">source code</a>]
-      </p>
-      <p>
-        <a href="doc/resume.pdf">Résumé</a> -
-        <a href="http://github.com/nmanske">Github</a> -
-        <a href="http://linkedin.com/in/nmanske">LinkedIn</a> -
-        <a href=#>WordPress</a> -
-        <a href="mailto:nathaniel.manske@gmail.com">E-mail</a>
+        Made with <3 by Nathan Manske. <a href="https://github.com/nmanske/nmanske.github.io">View source</a>.
       </p>
     </div>
   </footer>
-  <script src="scripts/main.js"></script>
 </body>
 
 </html>
