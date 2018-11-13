@@ -61,7 +61,7 @@ figcaption {
 
 .btn-custom {
   font-size: 45px;
-  padding: 20px 60px 0;
+  padding: 20px 55px 0;
 }
 
 .btn-custom:hover {
@@ -80,8 +80,10 @@ figcaption {
 }
 
 .self {
-  margin-top: 40px;
-  border-radius: 20px;
+  display: block;
+  margin: auto;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 .bio {
@@ -89,9 +91,11 @@ figcaption {
 }
 
 .skills {
-  padding: 10px;
+  padding: 15px;
+  margin: auto;
   border-style: dashed;
   border-width: 1px;
+  font-size: 20px;
 }
 
 .projects {
