@@ -1,0 +1,24 @@
+{
+    "name": "nmanske",
+    "description": "Personal website and portfolio",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "\/assets\/images\/meta\/logo-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "\/assets\/images\/meta\/logo-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#123a2d",
+    "theme_color": "#123a2d",
+    "dir": "ltr",
+    "lang": "en-US",
+    "prefer_related_applications": false
+}
