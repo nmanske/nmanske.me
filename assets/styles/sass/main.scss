@@ -14,7 +14,7 @@ h1, h2 {
 
 h1 {
   font-size: 75px;
-  padding-top: 50px;
+  padding-top: 45px;
   margin-bottom: 0;
 }
 
@@ -23,7 +23,6 @@ h2 {
 }
 
 header {
-  padding-top: 30px;
   margin-top: 60px;
 }
 
@@ -54,6 +53,10 @@ figcaption {
   padding: 0 75px;
 }
 
+.lighter-bg {
+  background: rgba(30, 30, 30, 0.5);
+}
+
 .btn-findme {
   font-size: 52px;
   padding: 20px 55px 0;
@@ -74,6 +77,10 @@ figcaption {
   padding-bottom: 10px;
 }
 
+.title {
+  padding-bottom: 15px;
+}
+
 .self {
   display: block;
   margin: auto;
@@ -83,15 +90,17 @@ figcaption {
 
 .bio {
   font-size: 20px;
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 .skills {
   font-size: 18px;
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 .projects {
   font-size: 20px;
-  padding-top: 20px;
+  padding-top: 30px;
 }
