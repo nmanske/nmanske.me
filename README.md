@@ -1,3 +1,3 @@
-# nmanske.github.io
+# nmanske.me
 
-Personal website showcasing projects and more
+Personal website showcasing projects and more. Hosted on Netlify.
