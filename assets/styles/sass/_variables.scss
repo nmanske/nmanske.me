@@ -1,15 +1,16 @@
 // Backgrounds
 
-$background-modern: linear-gradient(to right, #318031, #2c459e);
-$background-webkit: -webkit-linear-gradient(to right, #318031, #2c459e);
-$background-fallback: #283c86;
+$background-modern: #141414;
+$background-webkit: #141414;
+$background-fallback: #141414;
 
-$background-container: rgba(20, 20, 20, 0.5);
+$background-container: #2d2d2d;
+$background-container-darker: #282828;
 
 // Fonts & Text
 
-$font-title: 'Fredoka One', cursive;
-$font-subject: 'Sniglet', cursive;
+$font-title: 'Gugi', cursive;
+$font-subject: 'Gugi', cursive;
 $font-base: 'Hind', sans-serif;
 
 $color-base: white;

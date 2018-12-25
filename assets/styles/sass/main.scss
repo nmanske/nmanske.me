@@ -53,8 +53,8 @@ figcaption {
   padding: 0 75px;
 }
 
-.lighter-bg {
-  background: rgba(30, 30, 30, 0.5);
+.darker-bg {
+  background: $background-container-darker;
 }
 
 .btn-findme {
