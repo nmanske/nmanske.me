@@ -1,12 +1,16 @@
 // Age writer
-var age = new moment().diff(moment('19940111', 'YYYYMMDD'), 'years')
-var ageElements = document.getElementsByClassName("age")
+var age = new moment().diff(moment('19940111', 'YYYYMMDD'), 'years');
+var ageElements = document.getElementsByClassName("age");
 for (let element of ageElements)
-  element.innerHTML = age
+  element.innerHTML = age;
 
 // Copyright year writer
-var copyrightYear = new moment().year()
-var copyrightYearElements = document.getElementsByClassName("copyrightYear")
-console.log(copyrightYearElements[0])
+var copyrightYear = new moment().year();
+var copyrightYearElements = document.getElementsByClassName("copyrightYear");
+console.log(copyrightYearElements[0]);
 for (let element of copyrightYearElements)
-  element.innerHTML = copyrightYear
+  element.innerHTML = copyrightYear;
+
+// Letter scrambling
+let b = window.baffle(document.querySelectorAll('.name, .position'));
+b.reveal(1000);
