@@ -12,5 +12,8 @@ for (let element of copyrightYearElements)
   element.innerHTML = copyrightYear;
 
 // Letter scrambling
-let b = window.baffle(document.querySelectorAll('.name, .position'));
-b.reveal(1000);
+let baffleElements = document.querySelectorAll('.name, .position');
+let b = window.baffle(baffleElements, {
+  characters: '01',
+});
+b.reveal(2000);
