@@ -23,8 +23,25 @@ window.addEventListener('load', () => {
   const video = document.querySelector('.background-video');
   const content = document.querySelector('.content');
 
-  video.oncanplaythrough = () => {
-    // Make content visible after the video is ready
-    content.style.visibility = 'visible';
+  let videoLoaded = false;
+
+  const checkAndDisplayContent = () => {
+    if (videoLoaded) {
+      content.style.visibility = 'visible';
+    }
   };
+
+  video.addEventListener('canplaythrough', () => {
+    videoLoaded = true;
+    checkAndDisplayContent();
+  });
+
+  // Fallback in case `canplaythrough` doesn't fire
+  setTimeout(() => {
+    if (!videoLoaded) {
+      content.style.visibility = 'visible';
+    }
+  }, 3000); // Timeout to show content after 3 seconds if video hasn't loaded
+
+  video.load();
 });

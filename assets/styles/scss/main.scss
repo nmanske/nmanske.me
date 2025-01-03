@@ -115,6 +115,7 @@ figcaption {
   object-fit: cover; // Ensure the video fills the screen without distortion
   width: 100%;
   height: 100%;
+  z-index: 0;
 }
 
 .content {
@@ -123,5 +124,5 @@ figcaption {
   color: white;
   text-align: center;
   padding: 20px;
-  visibility: visible;
+  visibility: hidden;
 }
