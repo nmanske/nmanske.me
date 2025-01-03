@@ -125,4 +125,10 @@ figcaption {
   text-align: center;
   padding: 20px;
   visibility: hidden;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.content.visible {
+  visibility: visible;
+  opacity: 1;
 }

@@ -31,12 +31,12 @@ window.addEventListener('load', () => {
     }
   };
 
-  video.addEventListener('canplaythrough', () => {
+  video.addEventListener('loadeddata', () => {
     videoLoaded = true;
     checkAndDisplayContent();
   });
 
-  // Fallback in case `canplaythrough` doesn't fire
+  // Fallback in case `loadeddata` doesn't fire
   setTimeout(() => {
     if (!videoLoaded) {
       content.style.visibility = 'visible';
