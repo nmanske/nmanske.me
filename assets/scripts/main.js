@@ -17,3 +17,14 @@ let b = window.baffle(baffleElements, {
   characters: '01',
 });
 b.reveal(2000);
+
+// Load video and content simultaneously
+window.addEventListener('load', () => {
+  const video = document.querySelector('.background-video');
+  const content = document.querySelector('.content');
+
+  video.oncanplaythrough = () => {
+    // Make content visible after the video is ready
+    content.style.visibility = 'visible';
+  };
+});

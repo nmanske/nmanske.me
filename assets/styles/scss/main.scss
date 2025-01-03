@@ -52,12 +52,8 @@ figcaption {
 }
 
 .container {
-  background: $background-container;
+  // background: $background-container;
   padding: 0 75px;
-}
-
-.darker-bg {
-  background: $background-container-darker;
 }
 
 .btn-findme {
@@ -82,6 +78,7 @@ figcaption {
 
 .title {
   padding-bottom: 15px;
+  margin-top: 15vh;
 }
 
 .self {
@@ -108,24 +105,16 @@ figcaption {
   padding-top: 30px;
 }
 
-.background-video-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  overflow: hidden;
-}
-
 .background-video {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); // Center the video
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover; // Ensure the video fills the screen without distortion
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  height: 100%;
 }
 
 .content {
@@ -134,4 +123,5 @@ figcaption {
   color: white;
   text-align: center;
   padding: 20px;
+  visibility: visible;
 }
