@@ -26,11 +26,6 @@ header {
   margin-top: 60px;
 }
 
-footer {
-  padding: 30px 0 20px 0;
-  margin-bottom: 60px;
-}
-
 a {
   color: white;
   text-decoration: underline;
@@ -38,14 +33,6 @@ a {
 
 a:hover {
   color: #7F7F7F;
-}
-
-img {
-  width: 100%;
-}
-
-figcaption {
-  margin-bottom: 0.8em;
 }
 
 .container {
@@ -61,17 +48,6 @@ figcaption {
   color: #7F7F7F;
 }
 
-.subject {
-  font-family: "Gugi", cursive;
-  font-size: 47px;
-  margin-bottom: 25px;
-}
-
-.project {
-  border-radius: 20px;
-  padding-bottom: 10px;
-}
-
 .title {
   padding-bottom: 15px;
   margin-top: 20vh;
@@ -82,30 +58,6 @@ figcaption {
     margin-top: 0vh; /* For smaller screens */
   }
 }
-.self {
-  display: block;
-  margin: auto;
-  max-width: 400px;
-  max-height: 400px;
-}
-
-.bio {
-  font-size: 20px;
-  padding-top: 30px;
-  padding-bottom: 15px;
-}
-
-.skills {
-  font-size: 18px;
-  padding-top: 30px;
-  padding-bottom: 15px;
-}
-
-.projects {
-  font-size: 20px;
-  padding-top: 30px;
-}
-
 .background-video {
   position: absolute;
   top: 50%;
@@ -130,10 +82,5 @@ figcaption {
   visibility: hidden;
   opacity: 0;
   transition: opacity 1s ease-in-out;
-}
-
-.content.visible {
-  visibility: visible;
-  opacity: 1;
 }
 /*# sourceMappingURL=main.css.map */
