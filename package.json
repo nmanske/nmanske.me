@@ -18,6 +18,7 @@
   "homepage": "https://github.com/nmanske/nmanske.me#readme",
   "dependencies": {
     "baffle": "^0.3.6",
+    "gulp-sass": "^6.0.0",
     "moment": "^2.23.0"
   },
   "devDependencies": {
