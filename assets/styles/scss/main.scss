@@ -62,12 +62,9 @@ a:hover {
 }
 
 .background-video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); // Center the video
-  min-width: 100%;
-  min-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   object-fit: cover; // Ensure the video fills the screen without distortion
   width: 100%;
   height: 100%;
