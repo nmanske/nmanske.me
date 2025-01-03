@@ -11,6 +11,12 @@ console.log(copyrightYearElements[0]);
 for (let element of copyrightYearElements)
   element.innerHTML = copyrightYear;
 
+window.addEventListener('resize', function () {
+  const video = document.querySelector('.background-video');
+  video.style.width = '100%';
+  video.style.height = '100%';
+});
+
 // Load video and content simultaneously
 window.addEventListener('load', () => {
   const video = document.querySelector('.background-video');
