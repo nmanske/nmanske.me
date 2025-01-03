@@ -36,185 +36,46 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/styles/css/main.min.css">
+  <link rel="stylesheet" href="assets/styles/css/main.css">
 </head>
 
 <body>
-  <header class="title container">
-    <div class="row">
-      <!--[if lte IE 9]>
-        <p style="margin-top: 30px;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-      <![endif]-->
-      <div class="col-md-12">
-        <h1 class="name text-center">Nathan Manske</h1>
-        <h2 class="position text-center">Software Engineer</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-          <nav class="text-center">
-            <a href="assets/doc/resume.pdf" target="_blank" rel="noopener" title="Résumé" class="btn btn-findme" >
-              <i class="fas fa-file-alt" aria-hidden="true"></i>
-            </a>
-            <a href="https://github.com/nmanske" target="_blank" rel="noopener" title="Github" class="btn btn-findme">
-              <i class="fab fa-github" aria-hidden="true"></i>
-            </a>
-            <a href="https://linkedin.com/in/nmanske" target="_blank" rel="noopener" title="LinkedIn" class="btn btn-findme">
-              <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-            </a>
-            <a href="mailto:nathan@nmanske.me" title="E-mail" class="btn btn-findme">
-              <i class="fas fa-at" aria-hidden="true"></i>
-            </a>
-          </nav>
-      </div>
-    </div>
-  </header>
-  <section class="bio container darker-bg">
-    <div class="row">
-      <h3 class="subject text-left">About</h3>
-      <p>
-        <i class="far fa-star" aria-hidden="true"></i>󠁵󠁳󠁴󠁸󠁿
-        <span class="age">24</span> / Male / Austin
-        <i class="far fa-star"aria-hidden="true"></i>
-        󠁵󠁳󠁴󠁸󠁿<br><br>
-        Jack-of-all-trades specializing in <a href="https://github.com/nmanske" target="_blank" rel="noopener">software</a> development. I also know
-        how to get my hands dirty with <a href="https://hackaday.io/nmanske" target="_blank" rel="noopener">hardware</a>. I have experience designing
-        and building embedded systems, web pages, command-line utilities, automation scripts, electric circuits and more.
-      </p>
-    </div>
-  </section>
-  <section class="skills container">
-    <div class="row">
-      <h3 class="subject center-block text-center">Skills</h3>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <h4 class="text-left">
-          <strong>Web</strong>&nbsp;
-          <i class="fas fa-globe" aria-hidden="true"></i>
-        <h4>
-        <ul>
-          <li>Javascript</li>
-          <li>HTML/CSS</li>
-          <li>Django</li>
-          <li>SQL</li>
-          <li>Heroku</li>
-          <li>Electron</li>
-          <li>Google apps script</li>
-        </ul>
-      </div>
-        <div class="col-md-4">
-        <h4 class="text-left">
-          <strong>Software</strong>&nbsp;
-          <i class="fas fa-laptop" aria-hidden="true"></i>
-        <h4>
-        <ul>
-          <li>Python</li>
-          <li>C/C++</li>
-          <li>Java</li>
-          <li>Bash/Zsh</li>
-          <li>Git</li>
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <h4 class="text-left">
-          <strong>Hardware</strong>&nbsp;
-          <i class="fas fa-toolbox" aria-hidden="true"></i>
-        <h4>
-        <ul>
-          <li>Embedded systems & microcontrollers</li>
-          <li>Serial protocols</li>
-          <li>Circuit analysis</li>
-          <li>PCB design</li>
-          <li>FPGA programming</li>
-          <li>Wireless networking</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <section class="projects container darker-bg">
-    <div class="row">
-      <h3 class="subject text-left">Personal Projects</h3>
+  <div class="background-video-container"></div>
+    <video class="background-video" autoplay muted loop>
+      <source src="assets/videos/space_dust.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="content">
+    <header class="title container">
       <div class="row">
-        <div class="col-md-4">
-          <figure>
-            <a href="https://github.com/nmanske/optic" target="_blank" rel="noopener">
-              <img src="assets/images/projects/optic.webp" class="project img-fluid" alt="Optic - Simple Options Finder" onerror="this.onerror=null;this.src='assets/images/projects/optic.jpg';">
-            </a>
-            <figcaption class="text-center">
-              <strong>Optic - Simple Options Finder</strong>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-md-4">
-          <figure>
-            <a href="https://github.com/nmanske/stock-pal" target="_blank" rel="noopener">
-              <img src="assets/images/projects/stock-pal.webp" class="project img-fluid" alt="Stock Pal" onerror="this.onerror=null;this.src='assets/images/projects/stock-pal.jpg';">
-            </a>
-            <figcaption class="text-center">
-              <strong>Stock Pal - Live Trend Tracker</strong>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-md-4">
-          <figure>
-            <a href="https://github.com/nmanske/my-linux-configs" target="_blank" rel="noopener">
-              <img src="assets/images/projects/my-linux-configs.webp" class="project img-fluid" alt="My Linux Configs" onerror="this.onerror=null;this.src='assets/images/projects/my-linux-configs.jpg';">
-            </a>
-            <figcaption class="text-center">
-              <strong>My Linux Configs</strong>
-            </figcaption>
-          </figure>
+        <!--[if lte IE 9]>
+          <p style="margin-top: 30px;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        <div class="col-md-12">
+          <h1 class="name text-center">Nathan Manske</h1>
+          <h2 class="position text-center">Software Engineer</h2>
         </div>
       </div>
-    </div>
-    <br>
-  </section>
-  <section class="projects container">
-    <div class="row">
-      <h3 class="subject text-left">Academic Projects</h3>
       <div class="row">
-        <div class="col-md-4">
-          <figure>
-            <a href="https://github.com/nmanske/voting-machine" target="_blank" rel="noopener">
-              <img src="assets/images/projects/voting-machine.webp" class="project img-fluid" alt="Voting Machine" onerror="this.onerror=null;this.src='assets/images/projects/voting-machine.jpg';">
-            </a>
-            <figcaption class="text-center">
-              <strong>Wi-Fi Enabled Voting Machine</strong>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-md-4">
-          <figure>
-            <a href="https://dailytexanonline.com/2016/04/28/electrical-engineering-showcase-prototypes-in-senior-design-open-house" target="_blank" rel="noopener">
-              <img src="assets/images/projects/temperature-controller.webp" class="project img-fluid" alt="BBQ Smoker Temperature Controller" onerror="this.onerror=null;this.src='assets/images/projects/temperature-controller.jpg';">
-            </a>
-            <figcaption class="text-center">
-              <strong>BBQ Smoker Temperature Controller</strong>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-md-4">
-          <figure>
-            <a href="https://github.com/nmanske/maze-madness" target="_blank" rel="noopener">
-              <img src="assets/images/projects/maze-madness.webp" class="project img-fluid" alt="Maze Madness" onerror="this.onerror=null;this.src='assets/images/projects/maze-madness.jpg';">
-            </a>
-            <figcaption class="text-center">
-              <strong>Maze Madness - A Multiplayer Game</strong>
-            </figcaption>
-          </figure>
+        <div class="col-md-12">
+            <nav class="text-center">
+              <a href="assets/doc/resume.pdf" target="_blank" rel="noopener" title="Résumé" class="btn btn-findme" >
+                <i class="fas fa-file-alt" aria-hidden="true"></i>
+              </a>
+              <a href="https://github.com/nmanske" target="_blank" rel="noopener" title="Github" class="btn btn-findme">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="https://linkedin.com/in/nmanske" target="_blank" rel="noopener" title="LinkedIn" class="btn btn-findme">
+                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+              <a href="mailto:nathan@nmanske.me" title="E-mail" class="btn btn-findme">
+                <i class="fas fa-at" aria-hidden="true"></i>
+              </a>
+            </nav>
         </div>
       </div>
-    </div>
-    <br>
-  </section>
-  <footer class="container">
-    <div class="row text-center small">
-      <div class="col">
-        <p>© <span class="copyrightYear">2019</span> Nathan Manske. <a href="https://github.com/nmanske/nmanske.me" target="_blank" rel="noopener">View source</a>.</p>
-      </div>
-    </div>
-  </footer>
+    </header>
+  </div>
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baffle.js/0.3.6/baffle.min.js" integrity="sha256-t4S3aJv3Mx6uJj7GHumebNFFcG6ff96wvLzgSly/bpU=" crossorigin="anonymous"></script>

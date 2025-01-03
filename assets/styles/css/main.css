@@ -1,18 +1,16 @@
-@import 'variables';
-
 body {
-  color: $color-base;
-  font-family: $font-base;
+  color: white;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: $background-fallback;  /* fallback for old browsers */
-  background: $background-webkit;    /* Chrome 10-25, Safari 5.1-6 */
-  background: $background-modern;    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #141414; /* fallback for old browsers */
+  background: #141414; /* Chrome 10-25, Safari 5.1-6 */
+  background: #141414; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1, h2 {
-  font-family: $font-title;
+  font-family: "Gugi", cursive;
 }
 
 h1 {
@@ -35,12 +33,12 @@ footer {
 }
 
 a {
-  color: $color-base;
+  color: white;
   text-decoration: underline;
 }
 
 a:hover {
-  color: $color-hover;
+  color: #7F7F7F;
 }
 
 img {
@@ -48,16 +46,16 @@ img {
 }
 
 figcaption {
-  margin-bottom: .8em;
+  margin-bottom: 0.8em;
 }
 
 .container {
-  background: $background-container;
+  background: #2d2d2d;
   padding: 0 75px;
 }
 
 .darker-bg {
-  background: $background-container-darker;
+  background: #282828;
 }
 
 .btn-findme {
@@ -66,11 +64,11 @@ figcaption {
 }
 
 .btn-findme:hover {
-  color: $color-hover;
+  color: #7F7F7F;
 }
 
 .subject {
-  font-family: $font-subject;
+  font-family: "Gugi", cursive;
   font-size: 47px;
   margin-bottom: 25px;
 }

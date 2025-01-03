@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const sourcemaps = require('gulp-sourcemaps');
 const rename = require('gulp-rename');
 const uglify = require('gulp-uglify');
@@ -18,8 +18,8 @@ gulp.task('browserSyncDev', done => {
 
 gulp.task('sassDev', () => {
   return gulp.src('assets/styles/scss/main.scss')
-    .pipe(sass({outputStyle: 'compressed'}))
-    .pipe(rename({ suffix: '.min' }))
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    // .pipe(rename({ suffix: '.min' })) // TODO: Uncomment when compression works
     .pipe(gulp.dest('assets/styles/css'))
     .pipe(browserSync.stream());
 });
@@ -31,8 +31,8 @@ gulp.task('html', () => {
 
 gulp.task('sass', () => {
   return gulp.src('assets/styles/scss/main.scss')
-    .pipe(sass({outputStyle: 'compressed'}))
-    .pipe(rename({ suffix: '.min' }))
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    // .pipe(rename({ suffix: '.min' })) // TODO: Uncomment when compression works
     .pipe(gulp.dest('dist/styles/css'))
 });
 
