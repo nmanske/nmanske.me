@@ -11,13 +11,6 @@ console.log(copyrightYearElements[0]);
 for (let element of copyrightYearElements)
   element.innerHTML = copyrightYear;
 
-// Letter scrambling
-let baffleElements = document.querySelectorAll('.name, .position');
-let b = window.baffle(baffleElements, {
-  characters: '01',
-});
-b.reveal(2000);
-
 // Load video and content simultaneously
 window.addEventListener('load', () => {
   const video = document.querySelector('.background-video');
@@ -28,6 +21,15 @@ window.addEventListener('load', () => {
   const checkAndDisplayContent = () => {
     if (videoLoaded) {
       content.style.visibility = 'visible';
+
+      // Trigger letter scrambling
+      const baffleElements = document.querySelectorAll('.name, .position');
+      const b = window.baffle(baffleElements, {
+        characters: '01',
+        speed: 50,
+      });
+      b.start();
+      b.reveal(2000);
     }
   };
 
