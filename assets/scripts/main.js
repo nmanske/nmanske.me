@@ -20,7 +20,11 @@ window.addEventListener('load', () => {
 
   const checkAndDisplayContent = () => {
     if (videoLoaded) {
+      video.style.visibility = 'visible';
+      video.style.opacity = '1';
+
       content.style.visibility = 'visible';
+      content.style.opacity = '1';
 
       // Trigger letter scrambling
       const baffleElements = document.querySelectorAll('.name, .position');

@@ -75,9 +75,14 @@ figcaption {
 
 .title {
   padding-bottom: 15px;
-  margin-top: 15vh;
+  margin-top: 20vh;
 }
 
+@media (max-width: 768px) {
+  .title {
+    margin-top: 0vh; /* For smaller screens */
+  }
+}
 .self {
   display: block;
   margin: auto;
@@ -113,6 +118,8 @@ figcaption {
   width: 100%;
   height: 100%;
   z-index: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
 .content {
@@ -122,7 +129,8 @@ figcaption {
   text-align: center;
   padding: 20px;
   visibility: hidden;
-  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
 .content.visible {
