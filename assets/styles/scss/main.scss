@@ -31,7 +31,7 @@ header {
 
 a {
   color: $color-base;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
@@ -83,4 +83,9 @@ a:hover {
   visibility: hidden;
   opacity: 0;
   transition: opacity 1s ease-in-out;
+}
+
+.icon-text {
+  font-size: 18px;
+  margin-top: 0;
 }
