@@ -52,7 +52,7 @@ a:focus {
 
 .btn-findme {
   font-size: 52px;
-  padding: 20px 45px 0;
+  padding: 20px 40px 0;
 }
 
 .btn-findme:hover {
@@ -99,6 +99,10 @@ a:focus {
   flex-grow: 1;
 }
 
+.icon-links {
+  padding: 0 60px 0 60px;
+}
+
 /* Icons and text side-by-side and increase text size for screens <= 767px */
 @media (max-width: 767.2px) {
   .icon-links {
@@ -112,6 +116,7 @@ a:focus {
     text-decoration: none;
     transition: all 0.3s ease;
     margin-top: 5px;
+    padding: 0;
   }
   .icon-links a {
     width: 400px; /* Set a fixed width for the link boxes */
