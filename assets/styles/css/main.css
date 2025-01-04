@@ -43,7 +43,6 @@ a:focus {
 }
 
 .container {
-  padding: 0 75px;
   user-select: none;
 }
 
@@ -115,7 +114,7 @@ a:focus {
     margin-top: 5px;
   }
   .icon-links a {
-    width: 767px; /* Set a fixed width for the link boxes */
+    width: 400px; /* Set a fixed width for the link boxes */
     padding: 0px 25px 0px;
     border: 2px solid #fff;
     border-radius: 20px;
