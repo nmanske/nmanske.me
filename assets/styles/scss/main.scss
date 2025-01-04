@@ -67,7 +67,7 @@ a:focus {
   margin-top: 20vh;
 }
 
-@media (max-width: 768px), (max-height: 768px) {
+@media (max-width: 1000px), (max-height: 1000px) {
   .title {
     margin-top: 0vh; /* For smaller screens */
   }
@@ -100,4 +100,38 @@ a:focus {
   font-size: 18px;
   margin-top: 0;
   text-decoration: none;
+}
+
+/* Stack the icons vertically for smaller screens */
+@media (max-width: 1000px) {
+  .icon-links {
+    flex-direction: column; /* Stack the items vertically */
+    align-items: center; /* Center align the items */
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */ 
+  }
+
+  .icon-links a {
+    width: 100%; /* Make the link boxes stretch to fill the container */
+    justify-content: center; /* Center the text and icon */
+    margin-top: 25px; /* Space between stacked links */
+    text-align: center; /* Center the text in the box */
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .icon-links a i {
+    margin-right: 0; /* Remove margin between icon and text in mobile */
+    margin-right: 10px;
+  }
+
+  .icon-links a:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Hover effect */
+  }  
 }
