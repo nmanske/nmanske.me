@@ -67,7 +67,7 @@ a:focus {
   margin-top: 20vh;
 }
 
-@media (max-width: 1000px), (max-height: 1000px) {
+@media (max-width: 767.2px), (max-height: 767.2px) {
   .title {
     margin-top: 0vh; /* For smaller screens */
   }
@@ -102,36 +102,48 @@ a:focus {
   text-decoration: none;
 }
 
-/* Stack the icons vertically for smaller screens */
-@media (max-width: 1000px) {
+/* Icons and text side-by-side and increase text size for screens <= 767px */
+@media (max-width: 767.2px) {
   .icon-links {
-    flex-direction: column; /* Stack the items vertically */
-    align-items: center; /* Center align the items */
     display: flex;
-    align-items: center;
+    flex-direction: row; /* Side-by-side icon and text */
+    justify-content: center; /* Center align the items */
+    align-items: center; /* Vertically align the items */
+    gap: 20px; /* Add space between items */
+    flex-wrap: wrap; /* Allow wrapping if necessary */
     color: white;
     text-decoration: none;
     transition: all 0.3s ease;
-    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */ 
+    margin-top: 20px;
   }
 
   .icon-links a {
-    width: 100%; /* Make the link boxes stretch to fill the container */
-    justify-content: center; /* Center the text and icon */
-    margin-top: 25px; /* Space between stacked links */
-    text-align: center; /* Center the text in the box */
-    padding: 10px 20px;
+    width: 767px; /* Set a fixed width for the link boxes */
+    padding: 10px;
     border: 2px solid #fff;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.2);
+    text-align: left; /* Align text to the left */
+    display: flex;
+    align-items: center; /* Center the icon vertically */
+    justify-content: flex-start; /* Align icon to the left and text to the right */
+    transition: all 0.3s ease;
   }
 
   .icon-links a i {
-    margin-right: 0; /* Remove margin between icon and text in mobile */
-    margin-right: 10px;
+    margin-right: 25px; /* Space between icon and text */
+    font-size: 28px; /* Icon size */
+    margin-left: 10px;
   }
 
   .icon-links a:hover {
     background-color: rgba(255, 255, 255, 0.4); /* Hover effect */
-  }  
+  }
+
+  .icon-links a .icon-text {
+    font-size: 18px; /* Keep text size smaller to fit inside the box */
+    text-align: left; /* Align text to the left */
+    margin-top: 15px; /* Remove any extra margin */
+    flex-grow: 1;
+  }
 }
