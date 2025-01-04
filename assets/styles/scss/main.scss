@@ -67,7 +67,7 @@ a:focus {
   margin-top: 20vh;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px), (max-height: 768px) {
   .title {
     margin-top: 0vh; /* For smaller screens */
   }
