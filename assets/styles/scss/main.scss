@@ -32,14 +32,25 @@ header {
 a {
   color: $color-base;
   text-decoration: none;
+  outline: none;
 }
 
 a:hover {
   color: $color-hover;
+  outline: none;
+}
+
+a:focus {
+  outline: none;
 }
 
 .container {
   padding: 0 75px;
+  user-select: none;
+}
+
+.name, .position {
+  cursor: pointer;
 }
 
 .btn-findme {
@@ -88,4 +99,5 @@ a:hover {
 .icon-text {
   font-size: 18px;
   margin-top: 0;
+  text-decoration: none;
 }
