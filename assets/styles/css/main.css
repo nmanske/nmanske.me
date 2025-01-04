@@ -97,6 +97,7 @@ a:focus {
   font-size: 18px;
   margin-top: 0;
   text-decoration: none;
+  flex-grow: 1;
 }
 
 /* Icons and text side-by-side and increase text size for screens <= 767px */
@@ -111,11 +112,11 @@ a:focus {
     color: white;
     text-decoration: none;
     transition: all 0.3s ease;
-    margin-top: 20px;
+    margin-top: 5px;
   }
   .icon-links a {
     width: 767px; /* Set a fixed width for the link boxes */
-    padding: 10px;
+    padding: 0px 25px 0px;
     border: 2px solid #fff;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.2);
@@ -126,15 +127,20 @@ a:focus {
     transition: all 0.3s ease;
   }
   .icon-links a i {
-    margin-right: 25px; /* Space between icon and text */
-    font-size: 28px; /* Icon size */
+    margin-right: 40px; /* Space between icon and text */
+    font-size: 35px; /* Icon size */
+    width: 30px; /* Fixed width for icons to ensure alignment */
+    height: 30px; /* Fixed height to make icons square */
+    line-height: 30px; /* Center the icon within its box */
+    display: inline-block; /* Ensure icons behave like a block element */
+    text-align: center; /* Center align the icon content */
     margin-left: 10px;
   }
   .icon-links a:hover {
     background-color: rgba(255, 255, 255, 0.4); /* Hover effect */
   }
   .icon-links a .icon-text {
-    font-size: 18px; /* Keep text size smaller to fit inside the box */
+    font-size: 24px; /* Keep text size smaller to fit inside the box */
     text-align: left; /* Align text to the left */
     margin-top: 15px; /* Remove any extra margin */
     flex-grow: 1;
